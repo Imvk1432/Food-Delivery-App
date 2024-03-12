@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkNumber(number) 
+        {
+            if (number > 0) {
+                console.log("Positive");
+            } else if (number < 0) {
+                console.log("Negative");
+            } else {
+                console.log("Zero");
+            }
+        }
+
+        var number = parseInt(prompt("Enter the number:"));
+        checkNumber(number);
+        // console.log(checkNumber(5));  
+        // console.log(checkNumber(-5)); 
+        // console.log(checkNumber(0)); 
+
+    </script>
+    <!-- <script>
+        var number1 = parseFloat(prompt("Enter the first number:"));
+        var number2 = parseFloat(prompt("Enter the second number:"));
+
+        if (number1 > number2) {
+            console.log("The largest number is: " + number1);
+        } else if (number2 > number1) {
+            console.log("The largest number is: " + number2);
+        } else {
+            console.log("Both numbers are equal.");
+        }
+
+    </script>
+    <script>
+        var age = parseInt(prompt("Enter your age:"));
+
+        if (age >= 18) {
+            console.log("You are an adult.");
+        } else {
+            console.log("You are a child.");
+        }
+
+    </script> -->
+</body>
+</html>

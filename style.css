@@ -1,3 +1,60 @@
+    html {
+        line-height: 1.15;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Proxima Nova', sans-serif;
+    }
+    .navbar-container{
+        width: 100vw;
+        height: 100px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+    .navbar-global{
+        width: 80vw;
+        height: 100px;
+        background-color: white;
+        font-size: 24px;
+    }
+    ul{
+        font: bold;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 40px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    li a{
+        text-decoration: none;
+        color: #3D4152;
+        margin: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .nav-link
         {
             color:black;
